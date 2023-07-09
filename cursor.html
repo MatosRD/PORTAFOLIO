@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_2.css">
+</head>
+<body>
+
+<ul>
+
+    <li><a href="">hola</a></li>
+    <li><a href="">accoust</a></li>
+    <li><a href="">salir</a></li>
+    <li><a href="">entrar</a></li>
+    <li><a href="">constacto</a></li>
+    <div class="cur"></div>
+</ul>
+
+<div class="color" >
+    <p>Lorem, ipsum dolor sit is!</p>
+    <div class="cursor"></div>
+</div>
+
+
+<script>
+
+const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove',(e) =>{
+
+            cursor.style.left = e.pageX + 'px';
+            cursor.style.top = e.pageY + 'px';
+
+        })
+
+        const cur = document.querySelector('.cur');
+        document.addEventListener('mousemove',(e) =>{
+
+            cur.style.left = e.pageX + 'px';
+            cur.style.top = e.pageY + 'px';
+
+        })
+</script>        
+</script>
+    
+</body>
+</html>
