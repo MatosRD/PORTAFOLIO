@@ -719,6 +719,8 @@ transform: scale(4);
 
 }
 
+
+
 .caja span{
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
@@ -835,6 +837,111 @@ transform: scale(4);
     font-weight: 700;
     letter-spacing: 10px;
     
+}
+
+
+
+
+
+
+.contt{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 20;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.contt img{
+    width: 400px;
+}
+
+.contt .mover{
+    position: absolute;
+    background: #18a151;
+    width: 320px;
+    height: 250px;
+    z-index: 1;
+    margin-top: -135px;
+    overflow: hidden;
+
+}
+.contt .ralla{
+    position: absolute;
+    background:#28c76a91;
+    width: 320px;
+    height: 25px;
+    z-index: 600;
+    margin-top: -360px;
+    animation: abc 9s infinite linear ;
+    overflow: hidden;
+    
+}
+
+.contt .ralla_2{
+    position: absolute;
+    background: #28c76a91;
+    width: 320px;
+    height: 40px;
+    z-index: 600;
+    margin-top: -360px;
+    animation: ab 9s infinite linear  ;
+    overflow: hidden;
+    animation-delay: 3s;
+    color: #18a151;
+}
+
+
+
+.contt .black{
+    position: absolute;
+    z-index: 60;
+    width: 250px;
+    height: 190px;
+    background: rgb(1, 10, 0);
+    margin-top: -120px;
+}
+
+.contt .black{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #18a151;
+}
+
+.contt .black p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.contt .black ul li {
+    margin-left: 30px; 
+    margin-bottom: 2px;
+}
+
+ .contt .fin{
+    position: absolute;
+    background: rgba(6, 202, 104, 0);
+    width: 320px;
+    height: 40px;
+    
+    z-index: 1;
+    top: 240px;
+ }
+
+ 
+ @keyframes ab{
+    100%{
+        margin-top: 60px;
+    }
+}
+
+@keyframes abc{
+    100%{
+        margin-top: 80px;
+    }
 }
 
 .linea{
@@ -1698,6 +1805,8 @@ border: 1px solid #1aee72;
         font-size: 24px;
         line-height: 70px;
     
+}.contt{
+    display: flex;
 }
 
 @media(max-width:375px){
@@ -2137,6 +2246,108 @@ height:200px;
     border-bottom: 2px solid #28c76a;
    
 
+}
+
+
+
+.contt{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 20;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.contt img{
+    width: 400px;
+}
+
+.contt .mover{
+    position: absolute;
+    background: #18a151;
+    width: 320px;
+    height: 250px;
+    z-index: 1;
+    margin-top: -135px;
+    overflow: hidden;
+
+}
+.contt .ralla{
+    position: absolute;
+    background:#28c76a91;
+    width: 320px;
+    height: 25px;
+    z-index: 600;
+    margin-top: -360px;
+    animation: abc 9s infinite linear ;
+    overflow: hidden;
+    
+}
+
+.contt .ralla_2{
+    position: absolute;
+    background: #28c76a91;
+    width: 320px;
+    height: 40px;
+    z-index: 600;
+    margin-top: -360px;
+    animation: ab 9s infinite linear  ;
+    overflow: hidden;
+    animation-delay: 3s;
+    color: #18a151;
+}
+
+
+
+.contt .black{
+    position: absolute;
+    z-index: 60;
+    width: 250px;
+    height: 190px;
+    background: rgb(1, 10, 0);
+    margin-top: -120px;
+}
+
+.contt .black{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #18a151;
+}
+
+.contt .black p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.contt .black ul li {
+    margin-left: 30px; 
+    margin-bottom: 2px;
+}
+
+ .contt .fin{
+    position: absolute;
+    background: rgba(6, 202, 104, 0);
+    width: 320px;
+    height: 40px;
+    
+    z-index: 1;
+    top: 240px;
+ }
+
+ 
+ @keyframes ab{
+    100%{
+        margin-top: 60px;
+    }
+}
+
+@keyframes abc{
+    100%{
+        margin-top: 80px;
+    }
 }
 
 /* tabs */
@@ -2627,6 +2838,7 @@ border: 1px solid #1aee72;
 }
 
 
+
 #subject{
     background: #19182c; border: none;
     border-radius: 5px;
@@ -2666,6 +2878,8 @@ border: 1px solid #1aee72;
             width: 200px;
         }.quitar iframe{
             width: 400px;
+        }.contt{
+            display: none;
         }
             
 
@@ -2678,6 +2892,8 @@ border: 1px solid #1aee72;
             margin-left: -5px;
          }.quitar iframe{
             width: 300px;
+        }.contt{
+            display: none;
         }
     }
 
@@ -2688,6 +2904,7 @@ border: 1px solid #1aee72;
            margin-left: -5px;
         }.quitar iframe{
             width: 340px;
+        }.contt{display: none;
         }
     }
 
