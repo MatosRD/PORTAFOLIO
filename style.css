@@ -826,6 +826,18 @@ transform: scale(4);
     }
 }
 
+
+#react{
+    animation:react-barra 2s forwards;
+}   
+
+
+@keyframes react-barra{
+    100%{
+        width:75%;
+    }
+}
+
 :root{
     --fill-size: 0%;
 }
@@ -1369,6 +1381,11 @@ main{
     border: 3px solid #19182c;
 }
 
+.mult .mult_1 h1 {
+    text-decoration: none;
+    color: white;
+}
+
 .mult .mult_1 h1{
     color:#28c76a;
     display: flex;
@@ -1477,10 +1494,10 @@ main{
         }.tab .text-content{
             margin-left: 10px;
         }.mult .mult_1 img{
-            width: 400px;
+            width: 90%;
             height: 220px;
         }.mult .mult_2 video{
-            width: 400px;
+            width: 90%;
         }.mult .mult_1 h1{
             font-size: 20px;
         }
@@ -1506,10 +1523,10 @@ main{
         height: 80px;
        
      }.mult .mult_1 img{
-        width: 350px;
+        width: 90%;
         height: 180px;
     }.mult .mult_2 video{
-        width: 350px;
+        width: 90%;
     }.mult .mult_1 h1{
         font-size: 18px;
     }
@@ -1746,7 +1763,9 @@ border: 1px solid #1aee72;
     text-decoration: none;
  }
 }
-
+.contenedor-box a{
+    text-decoration: none;
+ }
 
 @media (max-width:1024px){
     .gif img{
@@ -2218,6 +2237,18 @@ height:200px;
 @keyframes sql-barra{
     100%{
         width:85%;
+    }
+}
+
+
+#react{
+    animation:react-barra 2s forwards;
+}   
+
+
+@keyframes react-barra{
+    100%{
+        width:80%;
     }
 }
 
@@ -2868,16 +2899,14 @@ border: 1px solid #1aee72;
 
     
 
-    @media(width = 425px){
+    @media(width <=500px){
         .cuer{
             margin-top: -1250px;
         
         }.tarjeta iframe{
             width: 400px;
         }.quitar iframe{
-            width: 200px;
-        }.quitar iframe{
-            width: 400px;
+            width: 90%;
         }.contt{
             display: none;
         }
